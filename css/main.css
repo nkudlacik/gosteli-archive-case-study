@@ -1,6 +1,7 @@
+/* GENERAL SPECIFICATIONS */
 :root {
     --font-sans-serif: Roboto, sans-serif;
-    --font-serif: Tinos, serif;
+    --font-serif: Newsreader, serif;
     --black: #000;
     --white: #fff;
     --purple-light: #efeafd;
@@ -21,4 +22,19 @@ html {
 body {
     font-family: var(--font-sans-serif);
     color: var(--black);
+}
+
+.component img {
+    border: 1px solid #ccc;
+}
+
+/* MISSION STATEMENT */
+.mission-statement {
+    font-family: var(--font-serif);
+    font-size: 3.4rem;
+    font-weight: 370;
+    line-height: 1.2;
+    border: 1px solid #ccc;
+    padding: 4rem 18rem;
+    text-align: left;
 }
