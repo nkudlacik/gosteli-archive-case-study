@@ -1,0 +1,24 @@
+:root {
+    --font-sans-serif: Roboto, sans-serif;
+    --font-serif: Tinos, serif;
+    --black: #000;
+    --white: #fff;
+    --purple-light: #efeafd;
+    --orange: #cb633e;
+    --purple-dark: #847ffa;
+    --green: #5b7b69;
+    --peach: #f0cfcd;
+    --blue: #2e54ec;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: var(--font-sans-serif);
+    color: var(--black);
+}
