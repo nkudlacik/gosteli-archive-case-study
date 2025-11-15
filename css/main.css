@@ -10,6 +10,7 @@
     --green: #5b7b69;
     --peach: #f0cfcd;
     --blue: #2e54ec;
+    --purple-medium: #d2d0fd;
 }
 
 html {
@@ -58,6 +59,11 @@ body {
     border: 1px solid #ccc;
 }
 
+.component__code {
+    border: 1px solid #ccc;
+    margin: 1rem auto;
+}
+
 /* BUTTONS */
 .pill-btn {
     display: inline-flex;
@@ -83,15 +89,12 @@ body {
     font-size: 3.4rem;
     font-weight: 375;
     line-height: 1.2;
-    border: 1px solid #ccc;
-    padding: 4rem 18rem;
+    padding: 1rem 18rem;
     text-align: left;
 }
 
 /* WOMEN TOGETHER */
 .component__code.women-together {
-    border: 1px solid #ccc;
-    margin: 5rem auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,4 +118,22 @@ body {
 .right-column {
     display: flex;
     flex-direction: column;
+}
+
+/* FOOTER */
+
+.component__code.footer {
+    background-color: var(--purple-light);
+}
+
+.footer-bottom img {
+    border: none;
+}
+
+.pill-btn--footer {
+        width: 115px;
+}
+
+.pill-btn--footer:hover {
+    background-color: var(--purple-medium);
 }
