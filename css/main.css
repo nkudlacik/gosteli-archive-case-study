@@ -11,6 +11,7 @@
     --peach: #f0cfcd;
     --blue: #2e54ec;
     --purple-medium: #d2d0fd;
+    --green-neon: #d1fc01;
 }
 
 html {
@@ -97,6 +98,16 @@ body {
     background-color: var(--purple-medium);
 }
 
+.pill-btn--translate {
+    font-size: 1rem;
+    width: 35px;
+    border-radius: 15px;
+}
+
+.pill-btn--translate:hover {
+    background-color: var(--green-neon);
+}
+
 /* HEADER/NAVIGATION */
 .logo {
     width: 1700px;
@@ -104,6 +115,10 @@ body {
     margin: 0 auto;
     padding: 2rem;
     border: none;
+}
+
+img.logo {
+  border: none;
 }
 
 .navigation {
@@ -114,7 +129,19 @@ body {
 
 .navigation ul {
     display: flex;
-    gap: 1.5rem;
+    gap: 6rem;
+}
+
+.about-bar ul {
+    display: flex; 
+    gap: 7rem; 
+    margin-left: 10rem;
+}
+
+.resource-bar ul {
+    display: flex;
+    gap: 1.75rem;
+    margin-right: 12.5rem;
 }
 
 .navigation li {
@@ -126,10 +153,15 @@ body {
     color: var(--black);
     font-size: 1.25rem;
     font-weight: 350;
+    text-transform: uppercase;
 }
 
-img.logo {
-  border: none;
+.about-bar a {
+    letter-spacing: 0.5px;
+}
+
+.resource-bar a {
+    font-size: 0.95rem;
 }
 
 /* MISSION STATEMENT */
