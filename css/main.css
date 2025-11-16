@@ -97,6 +97,19 @@ body {
     background-color: var(--purple-medium);
 }
 
+/* HEADER/NAVIGATION */
+.logo {
+    width: 1700px;
+    display: block;
+    margin: 0 auto;
+    padding: 2rem;
+    border: none;
+}
+
+img.logo {
+  border: none;
+}
+
 /* MISSION STATEMENT */
 .mission-statement {
     font-family: var(--font-serif);
@@ -105,6 +118,7 @@ body {
     line-height: 1.2;
     padding: 1rem 18rem;
     text-align: left;
+    background: #fff;
 }
 
 /* WOMEN TOGETHER */
@@ -174,11 +188,11 @@ body {
   display: flex;
   justify-content: left;
   padding-top: 1rem;
-  gap: 10.5rem;
+  gap: 12rem;
 }
 
 .footer-bottom img {
-  height: 55px;
+  height: 54px;
   width: auto;
   border: none;
 }

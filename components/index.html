@@ -15,11 +15,48 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+ <!--ICONS-->   
+    <script src="https://kit.fontawesome.com/5e04ff3555.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <h1> 
         <a target="_blank"
         href="https://www.gosteli-archiv.ch/"> Gosteli Archive</a> Case Study Web Components</h1>
+
+
+
+    <article class="component"> <!--begin header-nav component-->  
+        <h5 class="component__name">Header/Navigation (1/7)</h5>
+        <img
+            srcset="screenshots/header-nav@2x.png 2x"
+            src="screenshots/header-nav@2x.png"
+            alt="Header/navigation screenshot">
+
+        <div class="component__code header-nav">
+            <img class="logo"
+                src="../images/logo.svg"
+                alt="Gosteli Archive logo.">
+
+            <nav>
+                <ul>
+                    <li><a href="#!">About Us</a></li>
+                    <li><a href="#!">The Archive</a></li>
+                    <li><a href="#!">Services</a></li>
+                    <li><a href="#!">Agenda</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="#!">Catalogue</a></li>
+                    <li><a href="#!">Donate</a></li>
+                    <li><a href="#!">Contact</a></li>
+                    <li><a href="#!"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a href="#" class="pill-btn">DE</a></li>
+                </ul>
+            </nav>    
+        </div> <!--close component__code header-nav div-->   
+    </article> <!--end header-nav component-->
+
+
 
     <article class="component"> <!--begin mission statement component-->  
         <h5 class="component__name">Mission Statement (3/7)</h5>
@@ -106,7 +143,7 @@
                 <img src="../images/kanton-bern.svg"
                 alt="Kanton Bern watermark.">
 
-                <img src="../images/bern.svg"
+                <img class="berger" src="../images/bern.svg"
                 alt="Bergergemeinde Bern watermark">
             </div> <!--close footer-bottom div-->
         </div> <!--close footer code div-->   
