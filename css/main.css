@@ -203,6 +203,15 @@ img.logo {
     width: 68%;
 }
 
+#news-date,
+#news-title {
+    display: inline-block;           /* keeps the underline only under the text */
+    border-bottom: 3px solid var(--black);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+
 .feature-info h4 {
     font-size: 6.5rem;
     font-weight: 400;
