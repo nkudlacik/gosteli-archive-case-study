@@ -81,7 +81,7 @@
 
 
 
-    <article class="component"> <!--begin news component-->  
+    <article class="component news-component"> <!--begin news component-->  
         <h2 class="component__name">News (5/7)</h2>
             
         <img
@@ -94,50 +94,44 @@
                 <h3>News</h3>
             </div> <!--close vertical-label div-->
 
-            <div class="gosteli-visiting"> <!--begin gosteli-visiting section--> 
-                <div class="right-column">
+            <section class="news-feature"> <!--begin Gosteli visiting-->
+                    <div class="feature-date">
                         <h4>27.11.25</h4>
-                        <h4>Gosteli Visiting</h4>
-                        <p>Cinèmatte Bern</p>
-                        <p>We women of Worb</p>
-                        <a href="#" class="pill-btn">→</a>
-                </div> <!--close right-column div-->
-                
-                <div class="left-column">
-                    <img src="../images/verbunden.jpg"
-                    alt="Uber Grenzen Verbunden flyer.">
-                </div> <!--close left-column div-->
-            </div> <!--close gosteli-visiting div-->
+                    </div>
 
-            <div class="call-for-papers"> <!--begin call-for-papers section--> 
-                <div class="right-column">
+                    <div class="feature-info">
+                        <h4>GOSTELI VISITING</h4>
+                        <p>Cinématte Bern</p>
+                        <p>We women of Worb</p>
+                        <a href="#!" class="feature-arrow">→</a>
+                    </div>
+            </section> <!--end Gosteli visiting-->
+
+                <section class="news-row"> <!--begin Call for Papers-->
+                    <div class="row-text">
                         <h4>Call for Papers «Connected Across Borders»</h4>
                         <p>Papers for the Gosteli Talks 2026 can be submitted until January 31, 2026!</p>
                         <a href="#" class="pill-btn">→ more</a>
-                </div> <!--close right-column div-->
-                
-                <div class="left-column">
-                    <img src="../images/verbunden.jpg"
-                    alt="Uber Grenzen Verbunden flyer.">
-                </div> <!--close left-column div-->
-            </div> <!--close call-for-papers div-->
+                    </div> <!--close row-text div-->
 
-            <div class="construction-project"> <!--begin construction-project section--> 
-                <div class="right-column">
+                    <div class="row-image">
+                        <img src="../images/verbunden.jpg" alt="Über Grenzen Verbunden flyer">
+                    </div> <!--close row-image div-->
+                </section> <!--end Call for Papers section-->
+
+                <section class="news-row"> <!--begin Construction Project section-->
+                    <div class="row-text">
                         <h4>Construction Project</h4>
                         <p>The Gosteli archive is bursting at the seams. Therefore, we are planning an extension that will provide space for the proper storage of our archival materials.</p>
                         <a href="#" class="pill-btn">→ more</a>
-                </div> <!--close right-column div-->
-                
-                <div class="left-column">
-                    <img src="../images/blueprint.jpg"
-                    alt="Blueprint of building construction plans.">
-                </div> <!--close left-column div-->
-            </div> <!--close construction-project div-->
+                    </div> <!--close row-text div-->
 
-
-        </div> <!--close component__code news div-->   
-    </article> <!--end news component-->
+                    <div class="row-image">
+                        <img src="../images/blueprint.jpg" alt="Building blueprint">
+                    </div> <!--close row-image div-->
+                </section> <!--end Construction Project section-->
+        </div> <!--close component__code news div-->
+    </article> <!--end news component--> 
 
 
 
@@ -166,7 +160,7 @@
 
                     <a href="#" class="pill-btn">→ more</a>
                 </div> <!--end right-column div-->
-            </div> <!--end content div-->
+            </div> <!--close content div-->
         </div> <!--close component__code women-together div-->   
     </article> <!--end women together component-->
 </main>

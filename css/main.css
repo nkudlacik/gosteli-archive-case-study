@@ -108,6 +108,14 @@ body {
     background-color: var(--green-neon);
 }
 
+.feature-arrow {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
 /* HEADER/NAVIGATION */
 .logo {
     width: 1700px;
@@ -173,6 +181,38 @@ img.logo {
     padding: 1rem 18rem;
     text-align: left;
     background: #fff;
+}
+
+/* NEWS */
+.news-component {
+
+}
+
+.news-feature {
+    background: var(--blue);
+    color: var(--black);
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 60px;
+}
+
+.news-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+    margin-bottom: 80px;
+}
+
+.row-text h4 {
+
+}
+
+.row-image img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* WOMEN TOGETHER */
