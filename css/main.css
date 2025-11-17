@@ -110,10 +110,10 @@ body {
 
 .feature-arrow {
     display: inline-block;
-    margin-top: 20px;
-    font-size: 24px;
-    color: white;
+    font-size: 100px;
+    color: var(--black);
     text-decoration: none;
+    margin-top: 6rem;
 }
 
 /* HEADER/NAVIGATION */
@@ -184,35 +184,54 @@ img.logo {
 }
 
 /* NEWS */
-.news-component {
-
-}
-
 .news-feature {
     background: var(--blue);
     color: var(--black);
-    padding: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 60px;
+    grid-template-rows: auto auto;
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    gap: 30%;
+}
+
+.news-feature-wrapper {
+    display: flex;
+    align-items: flex-start;
+    margin: 5rem auto;
+    width: 68%;
+}
+
+.feature-info h4 {
+    font-size: 6.5rem;
+    font-weight: 400;
+    margin: 2rem 0;
+}
+
+.feature-info p {
+    font-size: 2.75rem;
+    margin: 0;
+}
+
+.feature-title h4 {
+    font-size: 3rem;
+    font-weight: 350;
+    text-transform: uppercase;
+    margin-top: 2rem;
 }
 
 .news-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
     align-items: start;
-    margin-bottom: 80px;
-}
-
-.row-text h4 {
-
 }
 
 .row-image img {
     width: 100%;
     height: auto;
     display: block;
+    border: none;
 }
 
 /* WOMEN TOGETHER */
