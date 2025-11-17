@@ -108,6 +108,10 @@ body {
     background-color: var(--green-neon);
 }
 
+.pill-btn--news {
+    margin-top: 10rem;
+}
+
 .feature-arrow {
     display: inline-block;
     font-size: 100px;
@@ -183,7 +187,7 @@ img.logo {
     background: #fff;
 }
 
-/* NEWS */
+/* NEWS FEATURE */
 .news-feature {
     background: var(--blue);
     color: var(--black);
@@ -203,15 +207,6 @@ img.logo {
     width: 68%;
 }
 
-#news-date,
-#news-title {
-    display: inline-block;           /* keeps the underline only under the text */
-    border-bottom: 3px solid var(--black);
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
-}
-
-
 .feature-info h4 {
     font-size: 6.5rem;
     font-weight: 400;
@@ -219,7 +214,8 @@ img.logo {
 }
 
 .feature-info p {
-    font-size: 2.75rem;
+    font-size: 2.6rem;
+    font-weight: 350;
     margin: 0;
 }
 
@@ -230,10 +226,13 @@ img.logo {
     margin-top: 2rem;
 }
 
+/* CALL FOR PAPERS */
 .news-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: start;
+    width: 57%;
+    margin: 5rem auto;
 }
 
 .row-image img {
@@ -241,6 +240,18 @@ img.logo {
     height: auto;
     display: block;
     border: none;
+}
+
+.row-text h4 {
+    margin: 0;
+    font-size: 2.6rem;
+    font-weight: 350;
+}
+
+.row-text p {
+    font-size: 1.7rem;
+    font-weight: 300;
+    margin-right: 15%;
 }
 
 /* WOMEN TOGETHER */
