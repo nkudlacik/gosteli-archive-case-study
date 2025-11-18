@@ -117,7 +117,6 @@ body {
     font-size: 100px;
     color: var(--black);
     text-decoration: none;
-    margin-top: 6rem;
 }
 
 /* HEADER/NAVIGATION */
@@ -192,8 +191,7 @@ img.logo {
     background: var(--blue);
     color: var(--black);
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
+    grid-template-columns: repeat(2, 1fr);
     width: 85%;
     margin: 0 auto;
     padding: 0 2rem;
@@ -205,25 +203,23 @@ img.logo {
     align-items: flex-start;
     margin: 5rem auto;
     width: 68%;
+    height: fit-content;
 }
 
 .feature-info h4 {
     font-size: 6.5rem;
     font-weight: 400;
-    margin: 2rem 0;
 }
 
 .feature-info p {
     font-size: 2.6rem;
     font-weight: 350;
-    margin: 0;
 }
 
 .feature-title h4 {
     font-size: 3rem;
     font-weight: 350;
     text-transform: uppercase;
-    margin-top: 2rem;
 }
 
 /* CALL FOR PAPERS */
