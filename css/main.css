@@ -121,10 +121,10 @@ body {
 
 /* HEADER/NAVIGATION */
 .logo {
-    width: 1700px;
+    width: 100%;
     display: block;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 2rem 13%;
     border: none;
 }
 
@@ -191,35 +191,49 @@ img.logo {
     background: var(--blue);
     color: var(--black);
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 85%;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr auto 2fr;
+    width: 57%;
     margin: 0 auto;
-    padding: 0 2rem;
-    gap: 30%;
+    padding: 3rem;
+    gap: 2rem;
 }
 
-.news-feature-wrapper {
-    display: flex;
-    align-items: flex-start;
-    margin: 5rem auto;
-    width: 68%;
-    height: fit-content;
+.item1 {
+    font-size: 7rem;
+    font-weight: 500;
 }
 
-.feature-info h4 {
-    font-size: 6.5rem;
+.item2 {
+    text-align: left;
+    font-size: 800;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.news-feature::after {
+    content: "";
+    grid-column: 1 / -1;
+    grid-row: 2;
+    height: 1px;
+    background: black;
+}
+
+.item3-text p {
+    margin-top: 0rem;
+    font-size: 12rem;
     font-weight: 400;
 }
 
-.feature-info p {
-    font-size: 2.6rem;
-    font-weight: 350;
+.item4 {
+    text-align: left;
 }
 
-.feature-title h4 {
-    font-size: 3rem;
-    font-weight: 350;
-    text-transform: uppercase;
+.feature-arrow {
+    display: inline-block;
+    font-size: 5rem;
+    color: var(--black);
+    text-decoration: none;
 }
 
 /* CALL FOR PAPERS */
