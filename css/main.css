@@ -228,6 +228,17 @@ img.logo {
     background-color: #fff;
 }
 
+.found-item img {
+    border-radius: 50%;
+    width: 25%;
+    height: auto;
+}
+
+.found-item a {
+    text-decoration: none;
+    color: var(--black);
+}
+
 /* NEWS FEATURE */
 .news-feature {
     background: var(--blue);
