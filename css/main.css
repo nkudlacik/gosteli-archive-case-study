@@ -175,6 +175,27 @@ img.logo {
     font-size: 0.95rem;
 }
 
+/* HERO CAROUSEL */
+.component__code.hero {
+    display: flex;
+    width: 73%;
+}
+
+.hero-img img {
+    display: block;
+    max-width: 815px;
+}
+
+.row-text--hero {
+    background-color: var(--orange);
+    flex: 1;
+    padding: 2rem;
+}
+
+.row-text--hero a {
+    margin-top: 60%;
+}
+
 /* MISSION STATEMENT */
 .mission-statement {
     font-family: var(--font-serif);
