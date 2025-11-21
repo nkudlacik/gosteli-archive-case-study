@@ -112,6 +112,10 @@ body {
     margin-top: 10rem;
 }
 
+.pill-btn--offers {
+    width: 250px;
+}
+
 .feature-arrow {
     display: inline-block;
     font-size: 100px;
@@ -179,17 +183,32 @@ img.logo {
 .component__code.hero {
     display: flex;
     width: 73%;
+    border: none;
 }
 
 .hero-img img {
     display: block;
     max-width: 815px;
+    height: 100%;
+    border: none;
 }
 
 .row-text--hero {
     background-color: var(--orange);
     flex: 1;
     padding: 2rem;
+}
+
+.row-text--purple-bg {
+    background-color: var(--purple-dark);
+}
+
+.row-text--green-bg {
+    background-color: var(--green);
+}
+
+.row-text--pink-bg {
+    background-color: var(--peach);
 }
 
 .row-text--hero a {
