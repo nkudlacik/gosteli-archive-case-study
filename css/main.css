@@ -70,6 +70,64 @@ body {
     margin: 1rem auto;
 }
 
+/* COLOR */
+.color {
+    display: flex;
+    gap: 2rem;
+    margin-left: 15vw;
+}
+
+.hex-codes p {
+    display: block;
+    margin-bottom: 7.5vh;
+}
+
+.swatch {
+    background-color: var(--black);
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 1vh;
+}
+
+.swatch__white {
+    background-color: var(--white);
+    border: 1px solid black;
+}
+
+.swatch__purple-light {
+    background-color: var(--purple-light);
+}
+
+.swatch__orange {
+    background-color: var(--orange);
+}
+
+.swatch__purple-dark {
+    background-color: var(--purple-dark);
+}
+
+.swatch__green {
+    background-color: var(--green);
+}
+
+.swatch__peach {
+    background-color: var(--peach);
+}
+
+.swatch__blue {
+    background-color: var(--blue);
+}
+
+.swatch__purple-medium {
+    background-color: var(--purple-medium);
+}
+
+.swatch__green-neon {
+    background-color: var(--green-neon);
+}
+
 /* BUTTONS */
 .pill-btn {
     display: inline-flex;
