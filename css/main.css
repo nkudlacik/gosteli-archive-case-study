@@ -69,6 +69,26 @@ body {
     border: 1px solid #ccc;
     margin: 1rem auto;
 }
+/* TYPOGRAPHY */    
+.typography {
+    display: flex;
+    font-size: 1rem;
+    gap: 3rem;
+    margin-left: 15vw;
+}
+
+.font-name {
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.roboto {
+    font-family: var(--font-sans-serif);
+}
+
+.newsreader {
+    font-family: var(--font-serif);
+}
 
 /* COLOR */
 .color {
@@ -129,6 +149,10 @@ body {
 }
 
 /* BUTTONS */
+.buttons {
+    margin-left: 15vw;
+}
+
 .pill-btn {
     display: inline-flex;
     align-items: flex-start;
