@@ -61,10 +61,6 @@ body {
     font-weight: 350;
 }
 
-.component img {
-    border: 1px solid #ccc;
-}
-
 .component__code {
     margin: 0 auto;
 }
@@ -212,11 +208,6 @@ body {
     margin: 0 auto;
     margin-top: 1rem;
     padding: 0.5rem 16.5%;
-    border: none;
-}
-
-img.logo {
-  border: none;
 }
 
 .navigation {
@@ -249,7 +240,7 @@ img.logo {
 
 .resource-bar ul {
     display: flex;
-    gap: 1.75rem;
+    gap: 1rem;
     margin-right: 12.5rem;
 }
 
@@ -277,7 +268,6 @@ img.logo {
 .component__code.hero {
     display: flex;
     width: 67%;
-    border: none;
 }
 
 .hero-img {
@@ -290,7 +280,6 @@ img.logo {
     max-width: 815px;
     height: 100%;
     width: 100%;
-    border: none;
     object-fit: contain;
 }
 
@@ -478,7 +467,6 @@ img.logo {
     width: 100%;
     height: auto;
     display: block;
-    border: none;
 }
 
 .row-text h4 {
@@ -515,7 +503,6 @@ img.logo {
 .symbol img {
     width: 135px;
     height: auto;
-    border: none;
     padding-top: 1.5rem;
     margin-left: 4.75rem;
     margin-right: 1.25rem;
@@ -572,5 +559,4 @@ img.logo {
 .footer-bottom img {
   height: 54px;
   width: auto;
-  border: none;
 }
