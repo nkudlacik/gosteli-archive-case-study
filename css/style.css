@@ -66,9 +66,9 @@ body {
 }
 
 .component__code {
-    border: 1px solid #ccc;
-    margin: 1rem auto;
+    margin: 0 auto;
 }
+
 /* TYPOGRAPHY */    
 .typography {
     display: flex;
@@ -190,10 +190,6 @@ body {
     background-color: var(--green-neon);
 }
 
-.pill-btn--news {
-   /* margin-top: 10rem; */
-}
-
 .pill-btn--offers {
     width: 250px;
 }
@@ -206,11 +202,16 @@ body {
 }
 
 /* HEADER/NAVIGATION */
+.component__code.header-nav {
+    border-bottom: 1px solid var(--black);
+}
+
 .logo {
     width: 100%;
     display: block;
     margin: 0 auto;
-    padding: 2rem 13%;
+    margin-top: 1rem;
+    padding: 0.5rem 16.5%;
     border: none;
 }
 
@@ -259,8 +260,8 @@ img.logo {
 .navigation a {
     text-decoration: none;
     color: var(--black);
-    font-size: 1.25rem;
-    font-weight: 350;
+    font-size: 1.10rem;
+    font-weight: 365;
     text-transform: uppercase;
 }
 
@@ -269,13 +270,13 @@ img.logo {
 }
 
 .resource-bar a {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
 }
 
 /* HERO CAROUSEL */
 .component__code.hero {
     display: flex;
-    width: 73%;
+    width: 67%;
     border: none;
 }
 
@@ -302,27 +303,16 @@ img.logo {
     padding: 2rem;
 }
 
-.row-text--purple-bg {
-    background-color: var(--purple-dark);
-}
-
-.row-text--green-bg {
-    background-color: var(--green);
-}
-
-.row-text--pink-bg {
-    background-color: var(--peach);
-}
-
 /* MISSION STATEMENT */
 .mission-statement {
     font-family: var(--font-serif);
-    font-size: 3.4rem;
+    font-size: 3rem;
     font-weight: 375;
     line-height: 1.2;
-    padding: 1rem 18rem;
+    padding: 1rem 16%;
     text-align: left;
     background: #fff;
+    border-bottom: 1px solid var(--black);
 }
 
 /* THE ARCHIVE */
