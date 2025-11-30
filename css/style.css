@@ -186,6 +186,10 @@ body {
 }
 
 /* HERO CAROUSEL */
+.hero {
+  background-color: var(--purple-light);  
+}
+
 .component__code.hero {
     display: flex;
     width: 67%;
