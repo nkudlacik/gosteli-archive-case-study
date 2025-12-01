@@ -24,7 +24,6 @@ html {
 h1, h2 {
     font-weight: 200;
     text-transform: uppercase;
-    padding: 1rem 18rem;
 }
 
 h1 {
@@ -221,9 +220,9 @@ body {
 .component__code.mission-statement {
     font-family: var(--font-serif);
     font-size: 3.1rem;
-    font-weight: 375;
+    font-weight: 365;
     line-height: 1.2;
-    padding: 4rem 16%;
+    padding: 1rem 16.5%;
     text-align: left;
     background: #fff;
     border-bottom: 1px solid var(--black);
@@ -234,14 +233,13 @@ body {
 .component__code.the-archive {
     display: flex;
     align-items: flex-start;
-    margin: 0 auto;   
+    margin: 5rem 16%;   
     width: fit-content;
-    margin: 2rem auto;
 }
 
 .archive-carousel {
     flex: 1;
-    max-width: 60%;
+    max-width: 65%;
     margin: 0;
     padding: 0;
 }
@@ -250,7 +248,7 @@ body {
     position: relative;
     max-width: 48rem;
     margin: 0 auto;
-    padding: 0;
+    padding-left: 5vw;
 }
 
 .slider-wrapper p {
@@ -261,7 +259,7 @@ body {
 
 .slider {
     display: flex;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 13 / 9;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -296,13 +294,13 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 1rem;
-    max-width: 25%;
+    gap: 0rem;
+    max-width: 100%;
 }
 
 .found-item img {
     border-radius: 50%;
-    width: 100%;
+    width: 65%;
     height: auto;
 }
 
