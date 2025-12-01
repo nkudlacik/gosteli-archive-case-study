@@ -439,7 +439,9 @@ body {
 /* FOOTER */
 .component__code.footer {
     background-color: var(--purple-light);
-    padding: 3rem 18vw;
+    padding-top: 2rem;
+    padding-bottom: 3.5rem;
+    padding-left: 15.75vw;
 }
 
 .footer {
