@@ -60,10 +60,6 @@ body {
     font-weight: 350;
 }
 
-.component__code {
-    margin: 0 auto;
-}
-
 /* BUTTONS */
 .buttons {
     margin-left: 15vw;
@@ -192,6 +188,7 @@ body {
 .component__code.hero {
     display: flex;
     width: 67%;
+    margin: 0 auto;
 }
 
 .hero-img {
@@ -233,7 +230,7 @@ body {
 .component__code.the-archive {
     display: flex;
     align-items: flex-start;
-    margin: 5rem 16%;   
+    margin: 5rem 16% 3rem;   
     width: fit-content;
 }
 
@@ -311,28 +308,28 @@ body {
 }
 
 /* NEWS FEATURE */
+.component__code.news {
+    border-top: 1px solid var(--black);
+}
+
 .news-feature {
     background: var(--blue);
     color: var(--black);
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr auto 2fr;
-    width: 57%;
     flex-grow: 1;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 3rem;
+    max-width: 59%;
+    padding: 2rem;
     gap: 2rem;
+    margin: 0 4vw;
 }
 
 .news-feature-wrapper {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;  
-    gap: 2rem;                
-    width: 70%;      
-    margin: 3rem auto; 
-    gap: 2rem;
+    justify-content: center;                    
+    margin: 5rem auto; 
 }
 
 .news-feature::after {
@@ -370,11 +367,6 @@ body {
     font-size: 5rem;
     color: var(--black);
     text-decoration: none;
-}
-
-.vertical-label {
-    flex-shrink: 0;       
-    /* padding-right: 6rem; */
 }
 
 /* CALL FOR PAPERS */
