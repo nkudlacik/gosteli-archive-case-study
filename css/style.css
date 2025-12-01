@@ -310,6 +310,7 @@ body {
 /* NEWS FEATURE */
 .component__code.news {
     border-top: 1px solid var(--black);
+    border-bottom: 1px solid var(--black);
 }
 
 .news-feature {
@@ -373,8 +374,8 @@ body {
 .news-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: start;
-    width: 57%;
+    justify-content: center;
+    width: 59%;
     margin: 5rem auto;
 }
 
@@ -386,14 +387,15 @@ body {
 
 .row-text h4 {
     margin: 0;
-    font-size: 3vw;
-    font-weight: 350;
+    font-size: 2vw;
+    font-weight: 375;
 }
 
 .row-text p {
     font-size: clamp(1rem, 2vw, 1.7rem);
-    font-weight: 300;
+    font-weight: 350;
     margin-right: 15%;
+    padding-bottom: 23%;
 }
 
 /* WOMEN TOGETHER */
