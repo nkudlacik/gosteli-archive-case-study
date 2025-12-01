@@ -57,7 +57,7 @@ body {
     font-family: var(--font-sans-serif);
     color: var(--black);
     font-size: 1.85rem;
-    font-weight: 350;
+    font-weight: 375;
 }
 
 /* BUTTONS */
@@ -414,7 +414,7 @@ body {
     align-items: center;
     justify-content: center;
     background: #fff;
-    padding: 4rem 23rem;
+    padding: 3rem 15.75vw;
 }
 
 .symbol img {
@@ -428,6 +428,12 @@ body {
 .right-column {
     display: flex;
     flex-direction: column;
+    max-width: 78%;
+}
+
+.women-together__text-block p {
+    font-size: 1.75rem;
+    line-height: 1.25;
 }
 
 /* FOOTER */
