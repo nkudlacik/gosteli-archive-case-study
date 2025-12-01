@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Components | Gosteli Archive</title>
+<!--CSS--> 
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+<!--ROBOTO FONT--> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<!--NEWSREADER FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+ <!--ICONS-->   
+    <script src="https://kit.fontawesome.com/5e04ff3555.js" crossorigin="anonymous"></script>
+</head>
+
+<body> 
+<header>   
+        <h1> 
+        <a target="_blank"
+        href="https://www.gosteli-archiv.ch/">Gosteli Archive</a> Case Study Web Components</h1>
+
+
+
+    <article class="atoms"> <!--begin atoms--> 
+        <div class="component__code">
+            <h2 class="atom_name">Typography</h2>
+
+            <div class="typography">
+                <div class="roboto">
+                    <div class="font-name">
+                        <p>Roboto</p>
+                    </div><!--close font-name div-->
+
+                    <p>nav (light weight, small sizing)</p>
+                    <p>headers (caps, vertical, light weight, small sizing)</p>
+                    <p>cards (bold weight, large sizing)</p>
+                    <p>news titles (medium weight, large sizing)</p>
+                    <p>news captions (medium weight, medium sizing)</p>
+                    <p>body (light weight, small sizing)</p>
+                    <p>buttons (light weight, small sizing)</p>
+                    <p>footer header (medium weight, small sizing)</p>
+                    <p>footer list (medium weight, smaller sizing)</p>
+                </div> <!--close roboto div-->
+
+                <div class="newsreader">
+                    <div class="font-name">
+                        <p>Newsreader</p>
+                    </div> <!--close font-name div-->
+                    <p>mission statement (medium weight, large sizing)</p>
+                </div> <!--close newsreader div-->
+            </div> <!--close typography div-->
+        </div> <!--close component__code div-->
+
+
+
+        <div class="component__code">
+            <h2 class="atom_name">Color</h2>
+
+            <div class="color">
+                <div class="swatches-column1">
+                    <div class="swatch swatch__black"></div>
+                    <div class="swatch swatch__white"></div>
+                    <div class="swatch swatch__purple-light"></div>
+                    <div class="swatch swatch__orange"></div>
+                    <div class="swatch swatch__purple-dark"></div>
+                </div> <!--close swatches-column1 div-->
+                
+                <div class="hex-codes hex-codes-column1">
+                    <p>#000</p>
+                    <p>#fff</p>
+                    <p>#efeafd</p>
+                    <p>#cb633e</p>
+                    <p>#847ffa</p>
+                </div> <!--close hex-codes-column1 div-->
+
+                <div class="swatches-column2">
+                    <div class="swatch swatch__green"></div>
+                    <div class="swatch swatch__peach"></div>
+                    <div class="swatch swatch__blue"></div>
+                    <div class="swatch swatch__purple-medium"></div>
+                    <div class="swatch swatch__green-neon"></div>
+                </div> <!--close swatches-column2 div-->
+
+                <div class="hex-codes hex-codes-column2">
+                    <p>#5b7b69</p>
+                    <p>#f0cfcd</p>
+                    <p>#2e54ec</p>
+                    <p>#d2d0fd</p>
+                    <p>#d1fc01</p>
+                </div> <!--close hex-codes-column2 div-->
+
+            </div> <!--close color div-->
+        </div> <!--close component__code div-->
+
+
+
+       <div class="component__code">  
+            <h2 class="atom_name">Buttons</h2>
+            <div class="buttons">
+                <a href="#" class="pill-btn pill-btn--translate">DE</a>
+                <a href="#" class="pill-btn pill-btn--news">research</a> 
+                <a href="#" class="pill-btn pill-btn--news">archiving</a>
+                <a href="#" class="pill-btn pill-btn--news pill-btn--offers">offers for school classes</a>   
+                <a href="#" class="pill-btn pill-btn--news">→ more</a>
+                <a href="#" class="pill-btn pill-btn--footer">→ Register</a>    
+            </div><!--close component__code div--> 
+        </div> <!--close component__code div--> 
+    </article> <!--end atoms--> 
+
+
+
+    <article class="component"> <!--begin header-nav component-->  
+        <h2 class="component__name">Header/Navigation (1/7)</h2>
+        <img
+            srcset="screenshots/header-nav@2x.png 2x"
+            src="screenshots/header-nav@2x.png"
+            alt="Header/navigation screenshot">
+
+        <div class="component__code header-nav">
+            <img class="logo"
+                src="../images/logo.svg"
+                alt="Gosteli Archive logo.">
+
+            <nav>
+                <div class="navigation">
+                    <div class="about-bar">
+                        <ul>
+                            <li><a href="#!">About Us</a></li>
+                            <li><a href="#!">The Archive</a></li>
+                            <li><a href="#!">Services</a></li>
+                            <li><a href="#!">Agenda</a></li>
+                        </ul>
+                    </div> <!--close about-bar div-->
+                    
+                    <div class="resource-bar">
+                        <ul>
+                            <li><a href="#!">Catalog</a></li>
+                            <li><a href="#!">Donate</a></li>
+                            <li><a href="#!">Contact</a></li>
+                            <li><a href="#!"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                            <li><a href="#" class="pill-btn pill-btn--translate">DE</a></li>
+                        </ul>
+                    </div> <!--close resource-bar div-->
+                </div> <!--close navigation div-->
+            </nav>    
+        </div> <!--close component__code header-nav div-->   
+    </article> <!--end header-nav component-->
+</header>
+
+
+
+<main>
+    <article class="component hero"> <!--begin hero component--> 
+        <h2 class="component__name">Hero Carousel(2/7)</h2>
+        <img
+            srcset="screenshots/article-carousel@2x.png 2x"
+            src="screenshots/article-carousel@2x.png"
+            alt="Mission statement copy">
+
+        <div class="component__code hero">
+                <div class="hero-img">
+                    <img src="../images/grass.jpg"
+                    alt="An old photo of women shoveling hay in a field.">
+                </div>
+
+                <div class="row-text row-text--hero">
+                    <h4>I need support for my research.</h4>
+                    <a href="#" class="pill-btn pill-btn--news">research</a>
+                </div> <!--close row-text--hero div-->
+        </div> <!--close component__code hero div-->
+
+        <div class="component__code hero">
+                <div class="hero-img">
+                    <img src="../images/bubble-wrap.jpg"
+                    alt="A black and white photo of a museum with a piece of bubble wrap over it.">
+                </div>
+
+                <div class="row-text row-text--hero row-text--purple-bg">
+                    <h4>I have material for the archive.</h4>
+                    =
+                </div> <!--close row-text--hero div-->
+        </div> <!--close component__code hero div-->
+
+
+        <div class="component__code hero">
+                <div class="hero-img">
+                    <img src="../images/tables.jpg"
+                    alt="An aerial photo of masses of women eating lunch at picnic tables.">
+                </div>
+
+                <div class="row-text row-text--hero row-text--green-bg">
+                    <h4>I am interested in research in the field of women's history.</h4>
+                    <a href="#" class="pill-btn pill-btn--news">research</a>
+                </div> <!--close row-text--hero div-->
+        </div> <!--close component__code hero div-->
+
+        <div class="component__code hero">
+                <div class="hero-img">
+                    <img src="../images/sunbathing.jpg"
+                    alt="An old photograph of five women sitting in the sun, laughing, and eating.">
+                </div>
+
+                <div class="row-text row-text--hero row-text--pink-bg">
+                    <h4>I would like to address women's history in the classroom.</h4>
+                    <a href="#" class="pill-btn pill-btn--news pill-btn--offers">offers for school classes</a>
+                </div> <!--close row-text--hero div-->
+        </div> <!--close component__code hero div-->
+    </article> <!--end hero component-->
+
+ 
+    
+    <article class="component"> <!--begin mission statement component-->  
+        <h2 class="component__name">Mission Statement (3/7)</h2>
+        <img
+            srcset="screenshots/mission-statement@2x.png 2x"
+            src="screenshots/mission-statement@2x.png"
+            alt="Mission statement copy">
+
+        <div class="component__code">
+            <p class="mission-statement">The Gosteli Archive collects and makes accessible sources on women's history. We advise researchers on their research and share our knowledge with a broad audience.</p>
+
+        </div> <!--close mission statement code div-->   
+    </article> <!--end mission statement component-->
+
+
+
+    <article class="component archive-component"> <!--begin the-archive component-->  
+        <h2 class="component__name">The Archive (4/7)</h2>
+        <img
+            srcset="screenshots/the-archive@2x.png 2x"
+            src="screenshots/the-archive@2x.png"
+            alt="The Archive Section screenshot">
+
+        <div class="component__code the-archive">
+            <div class="vertical-label">
+                <h3>The Archive</h3>
+            </div> <!--close vertical-label div-->
+
+            <section class="archive-carousel">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        <img id="slide-1" src="../images/children-corner.jpg"
+                        alt="Children's corner in the Gosteli archive.">
+
+                        <img id="slide-2" src="../images/listening-station.jpg"
+                        alt="Listening station <q>Actually, since forever.</q>">
+
+                        <img id="slide-3" src="../images/on-site-research.jpg"
+                        alt="On-site research.">                        
+                    </div> <!--close slider div--> 
+
+                    <div class="slider-nav">
+                        <a href="#slide-1"></a>
+                        <a href="#slide-2"></a>
+                        <a href="#slide-3"></a>
+                    </div> <!--close slider-nav div--> 
+
+                    <p>3 Images</p>
+                    <p>Images of the Gosteli Archive</p>
+                </div> <!--close slider-wrapper div--> 
+            </section> <!--close archive-carousel section--> 
+
+            <section class="found-item">
+                <a href="#!">
+                    <img src="../images/found-item.jpg"
+                    alt="A piece of fabric, a booklet, and a patch.">
+                </a>
+
+                <p><a href="#!">Found Item →</a></p>
+            </section> <!--close found-item section--> 
+
+        </div> <!--close component__code the-archive div-->   
+    </article> <!--end archive component-->
+
+
+
+    <article class="component news-component"> <!--begin news component-->  
+        <h2 class="component__name">News (5/7)</h2>
+            
+        <img
+            srcset="screenshots/news@2x.png 2x"
+            src="screenshots/news@2x.png"
+            alt="News section screenshot">
+
+        <div class="component__code news">
+            <div class="news-feature-wrapper">
+                <div class="vertical-label">
+                    <h3>News</h3>
+                </div> <!--close vertical-label div-->
+
+                <div class="news-feature"> <!--begin news-feature-->
+                    <div class="item item1">27.11.25</div>
+                    <div class="item item2">Gosteli Visiting</div>
+                    <div class="item item3">
+                        <p>Cinématte Bern</p>
+                        <p>We women of Worb</p>
+                    </div>
+                    <div class="item item4"><a href="#!" class="feature-arrow">→</a></div>
+                </div> <!--close news-feature div-->
+            </div> <!--close news-feature-wrapper div-->
+
+                <section class="news-row"> <!--begin Call for Papers-->
+                    <div class="row-text">
+                        <h4>Call for Papers «Connected Across Borders»</h4>
+                        <p>Papers for the Gosteli Talks 2026 can be submitted until January 31, 2026!</p>
+                        <a href="#" class="pill-btn pill-btn--news">→ more</a>
+                    </div> <!--close row-text div-->
+
+                    <div class="row-image">
+                        <img src="../images/verbunden.jpg" alt="Über Grenzen Verbunden flyer">
+                    </div> <!--close row-image div-->
+                </section> <!--end Call for Papers section-->
+
+                <section class="news-row"> <!--begin Construction Project section-->
+                    <div class="row-text">
+                        <h4>Construction Project</h4>
+                        <p>The Gosteli archive is bursting at the seams. Therefore, we are planning an extension that will provide space for the proper storage of our archival materials.</p>
+                        <a href="#" class="pill-btn pill-btn--news">→ more</a>
+                    </div> <!--close row-text div-->
+
+                    <div class="row-image">
+                        <img src="../images/blueprint.jpg" alt="Building blueprint">
+                    </div> <!--close row-image div-->
+                </section> <!--end Construction Project section-->
+        </div> <!--close component__code news div-->
+    </article> <!--end news component--> 
+
+
+
+    <article class="component"> <!--begin women together component-->  
+        <h2 class="component__name">Women Together (6/7)</h2>
+            
+        <img
+            srcset="screenshots/women-together@2x.png 2x"
+            src="screenshots/women-together@2x.png"
+            alt="Women Together article screenshot">
+
+        <div class="component__code women-together">
+            <div class="vertical-label">
+                <h3>Women Together</h3>
+            </div> <!--close vertical-label div-->
+
+            <div class="content__women-together">
+                <div class="symbol">
+                    <img src="../images/female.png" alt="A hazy, purple female symbol illustration.">
+                </div> <!--close symbol div-->
+
+                <div class="right-column">
+                    <div class="women-together__text-block">
+                        <p>What have women fought for and achieved together? We tell success stories of the women's movements in Switzerland: the recognition of unpaid care work in the old-age and survivors' insurance (AHV), greater social security for female farmers, participation in sports, and much more. Read for yourself!</p>
+                    </div> <!--close right column div-->
+
+                    <a href="#" class="pill-btn">→ more</a>
+                </div> <!--end right-column div-->
+            </div> <!--close content div-->
+        </div> <!--close component__code women-together div-->   
+    </article> <!--end women together component-->
+</main>
+
+<footer>
+    <article class="component"> <!--begin footer component-->  
+        <h2 class="component__name">Footer (7/7)</h2>
+        <img
+            srcset="screenshots/footer@2x.png 2x"
+            src="screenshots/footer@2x.png"
+            alt="Footer copy">
+
+        <div class="component__code footer">
+            <div class="footer-top">
+                <div class="footer-column">
+                    <h5>Legal</h5>
+                        <ul>
+                            <li><a href="#!">Imprint</a></li>
+                            <li><a href="#!">Data Protection</a></li>
+                        </ul>
+                </div> <!--close footer-column 1/3 div-->
+
+                <div class="footer-column">
+                    <h5>Social Media</h5>
+                        <ul>
+                            <li><a href="#!">Instagram</a></li>
+                            <li><a href="#!">LinkedIn</a></li>
+                            <li><a href="#!">Facebook</a></li>
+                        </ul>
+                </div> <!--close footer-column 2/3 div-->
+
+                <div class="footer-column">
+                    <h5>Newsletter</h5>
+                        <a href="#" class="pill-btn pill-btn--footer">→ Register</a>
+                </div> <!--close footer-column 3/3 div-->
+            </div> <!--close footer-top div-->
+
+            <div class="footer-bottom">
+                <img src="../images/swiss-confederation.svg"
+                alt="Swiss Confederation watermark.">
+
+                <img src="../images/kanton-bern.svg"
+                alt="Kanton Bern watermark.">
+
+                <img class="berger" src="../images/bern.svg"
+                alt="Bergergemeinde Bern watermark">
+            </div> <!--close footer-bottom div-->
+        </div> <!--close footer code div-->   
+    </article> <!--end footer component-->
+</footer>
+</body>
+</html>
