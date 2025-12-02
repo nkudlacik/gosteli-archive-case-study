@@ -47,6 +47,12 @@ h3 {
     margin: 0;
 }
 
+.row-text h4 {
+    margin: 0;
+    font-size: 2vw;
+    font-weight: 375;
+}
+
 h5 {
     font-size: 1.25rem;
     font-weight: 360;
@@ -342,25 +348,27 @@ body {
 }
 
 .item1 {
-    font-size: clamp(3rem, 7vw, 5rem);
-    font-weight: 500;
+    font-size: clamp(3rem, 7vw, 6rem);
+    font-weight: 400;
 }
 
 .item2 {
     text-align: left;
     font-size: clamp(1rem, 2.5vw, 3rem);
-    font-weight: 600;
+    font-weight: 350;
     text-transform: uppercase;
 }
 
-.item3-text p {
+.item3 p {
     margin-top: 0rem;
-    font-size: 12rem;
-    font-weight: 400;
+    font-size: 2vw;
+    font-weight: 350;
+    line-height: 0.5;
 }
 
 .item4 {
     text-align: left;
+    margin-top: 15vh;
 }
 
 .feature-arrow {
@@ -383,12 +391,6 @@ body {
     width: 100%;
     height: auto;
     display: block;
-}
-
-.row-text h4 {
-    margin: 0;
-    font-size: 2vw;
-    font-weight: 375;
 }
 
 .row-text p {
