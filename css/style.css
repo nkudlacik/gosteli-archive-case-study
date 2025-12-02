@@ -284,8 +284,6 @@ body {
     z-index: 1;
 }
 
-
-
 .found-item {
     display: flex;
     flex-direction: column;
@@ -363,13 +361,6 @@ body {
 .item4 {
     text-align: left;
     margin-top: 15vh;
-}
-
-.feature-arrow {
-    display: inline-block;
-    font-size: 5rem;
-    color: var(--black);
-    text-decoration: none;
 }
 
 /* CALL FOR PAPERS */
